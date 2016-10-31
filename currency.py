@@ -14,13 +14,13 @@ class Currency():
          if self.value == other.value:
             return Currency
 
-    # def __add__():
-    #     if self.value == other.value:
-    #         return Currency(self.currency_code, self.value + other.value)
+    def __add__():
+         if self.value == other.value:
+             return Currency(self.currency_code, self.value + other.value)
 
-    #     else:
-    #         raise DifferentCurrencyCodeError()
-    #         pass
+         else:
+             raise DifferentCurrencyCodeError()
+             pass
 
 
 #if __name__ == "__main__":
